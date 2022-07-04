@@ -7,8 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.rikko.myapplication.IMAGE_BASE
-import com.rikko.myapplication.R
+import com.rikko.myapplication.Constant.Companion.IMAGE_BASE
 import kotlinx.android.synthetic.main.activity_detail_movie.view.*
 import kotlinx.android.synthetic.main.movie_item.view.*
 

@@ -3,18 +3,16 @@ package com.rikko.myapplication
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.bumptech.glide.Glide
-import com.rikko.myapplication.Movie
-import com.rikko.myapplication.IMAGE_BASE
-import com.rikko.myapplication.R
+import com.rikko.myapplication.Constant.Companion.IMAGE_BASE
 import kotlinx.android.synthetic.main.activity_detail_movie.*
 import kotlinx.android.synthetic.main.activity_detail_movie.*
 
 class DetailMovieActivity : AppCompatActivity() {
-    companion object{
-        const val  EXTRA_DATA = "extra_data"
+    companion object {
+        const val EXTRA_DATA = "extra_data"
     }
 
-    var movies : Movie? = null
+    var movies: Movie? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
